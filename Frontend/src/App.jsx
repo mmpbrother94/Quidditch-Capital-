@@ -11,11 +11,11 @@ import Home from "./Home/Home.jsx";
 import Dashboard from "./Pages/Dashboard.jsx";
 // import RouteOptimization from "./Pages/Reports.jsx";
 import MainPage from "./Home/MainPage.jsx";
-import MarketIntelegence from "./Pages/MarketIntelegence.jsx";
+import BludgerChain from "./Pages/BludgerChain.jsx";
 import Reports from "./Pages/Reports.jsx";
-import ReportGeneration from "./Pages/ReportGeneration.jsx";
- import ExploreData from "./Pages/ExploreData.jsx";
-import EconomicIndicator from "./Pages/EconomicIndicator.jsx";
+import SeekerRisk from "./Pages/SeekerRisk.jsx";
+ import MarketMagic from "./Pages/MarketMagic.jsx";
+import StockSpells from "./Pages/StockSpells.jsx";
 import LandingPage from "./LandingPage/LandingPage.jsx";
 // import { useProductStore } from './contentStore/productStore.js';
 // import ReportGeneration from "./Pages/ReportGeneration.jsx";
@@ -45,13 +45,13 @@ function App() {
           <Route index element={<Home />} />
           <Route path="home" element={<Home/>}/>
           <Route path="dashboard" element={<Dashboard />} />
-          <Route path="marketIntelegence" element={<MarketIntelegence/>} />
+          <Route path="BludgerChain" element={<BludgerChain/>} />
           <Route path="reports" element={<Reports />} />
-          <Route path="exploreData" element={<ExploreData />} />
+          <Route path="MarketMagic" element={<MarketMagic/>} />
         </Route>
-        <Route path="/economicIndicator" element={<EconomicIndicator/>} />
-        <Route path="/marketIntelegence" element={<MarketIntelegence/>} />
-        <Route path="/reportgeneration" element={<ReportGeneration/>} />
+        <Route path="/StockSpells" element={<StockSpells/>} />
+        <Route path="/BludgerChain" element={<BludgerChain/>} />
+        <Route path="/SeekerRisk" element={<SeekerRisk/>} />
 
 
 

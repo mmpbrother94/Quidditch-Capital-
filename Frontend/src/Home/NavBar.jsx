@@ -22,9 +22,9 @@ function NavBar() {
         <div className="flex space-x-6 text-[#D4AF37] font-medium text-lg">
           <NavLink to="/mainpage/home" className="nav-link">Home</NavLink>
           <NavLink to="/mainpage/dashboard" className="nav-link">Quidditch Dashboard</NavLink>
-          <NavLink to="/mainpage/marketIntelegence" className="nav-link">Bludger Attacks</NavLink>
+          <NavLink to="/mainpage/BludgerChain" className="nav-link">Bludger Attacks</NavLink>
           <NavLink to="/mainpage/reports" className="nav-link">Seeker’s Risk Analysis</NavLink>
-          <NavLink to="/mainpage/exploreData" className="nav-link">Magical Market Insights</NavLink>
+          <NavLink to="/mainpage/MarketMagic" className="nav-link">Magical Market Insights</NavLink>
         </div>
         
         {/* Sign Out Button */}
