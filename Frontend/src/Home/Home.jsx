@@ -23,28 +23,28 @@ function Home() {
   const features = [
     {
       title: "Stock Market Spells",
-      link: "/EconomicIndicator",
+      link: "/StockSpells",
       description:
         "Harness real-world stock data to cast winning spells and boost your Quidditch team's performance.",
       icon: <FaChartBar className="text-gold-500 text-3xl" />,
     },
     {
       title: "Bludger Attacks (Option Chain)",
-      link: "/marketIntelegence",
+      link: "/BludgerChain",
       description:
         "Visualize trading options as strategic Bludger attacks to outmaneuver opponents in the financial arena.",
       icon: <FaChartLine className="text-red-600 text-3xl" />,
     },
     {
       title: "Seeker's Risk Analysis",
-      link: "/reportgeneration",
+      link: "/SeekerRisk",
       description:
         "Predict portfolio risk using Seeker-like trajectory models as you chase the Golden Snitch of investments.",
       icon: <FaFileAlt className="text-blue-600 text-3xl" />,
     },
     {
       title: "Magical Market Insights",
-      link: "/mainpage/exploreData",
+      link: "/mainpage/MarketMagic",
       description:
         "Explore the mystical depths of financial data with intuitive visualizations and natural language analysis.",
       icon: <FaSearch className="text-indigo-500 text-3xl" />,

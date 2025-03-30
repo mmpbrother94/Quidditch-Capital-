@@ -21,7 +21,7 @@ const exampleQueries = [
   '....'
 ];
 
-function ExploreData() {
+function MarketMagic() {
   return (
     <div className="bg-gradient-to-r from-[#4A1A2C] to-[#1E3A5F] min-h-screen p-8">
       <div className="container mx-auto">
@@ -78,4 +78,4 @@ function ExploreData() {
   );
 }
 
-export default ExploreData;
+export default MarketMagic;
