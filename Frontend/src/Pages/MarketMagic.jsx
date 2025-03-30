@@ -27,7 +27,7 @@ function MarketMagic() {
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-extrabold text-gold drop-shadow-lg">Magical Market Insights 🧙‍♂️</h1>
-          <p className="text-gray-300 mt-2 text-lg">Gamify stock trading with Quidditch magic! 🏆✨</p>
+          <p className="text-gray-300 mt-2 text-lg">Gamify stock trading with Quidditch magic!</p>
         </div>
 
         <div className="bg-[#2A1A40] p-8 rounded-xl shadow-lg mb-12 transition-transform transform hover:scale-105">

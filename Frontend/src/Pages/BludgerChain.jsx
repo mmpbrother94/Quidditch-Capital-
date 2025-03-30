@@ -40,7 +40,7 @@ function BludgerChain() {
         <div className="flex justify-between items-center border-b pb-4 border-gold-400">
           <div>
             <h2 className="text-4xl font-bold text-yellow-400">Quidditch Market Simulator</h2>
-            <p className="text-gray-300">Track stock volatility like Bludger Attacks ⚡</p>
+            <p className="text-gray-300">Track stock volatility like Bludger Attacks</p>
           </div>
           <div className="flex space-x-4">
             <select className="bg-yellow-400 text-black px-4 py-2 rounded-lg shadow-lg hover:bg-yellow-300">
@@ -66,7 +66,7 @@ function BludgerChain() {
 
         {/* Exchange Rates */}
         <div className="bg-black text-gold-300 p-6 rounded-lg shadow-xl">
-          <h2 className="text-3xl font-bold mb-4">⚡ Exchange Rates</h2>
+          <h2 className="text-3xl font-bold mb-4">Exchange Rates</h2>
           {loading ? (
             <p className="text-center text-yellow-400 animate-pulse">Summoning data...</p>
           ) : error ? (
@@ -87,7 +87,7 @@ function BludgerChain() {
 
         {/* Bludger Attacks Stock Data */}
         <div className="bg-black text-gold-300 p-6 rounded-lg shadow-xl">
-          <h2 className="text-3xl font-bold mb-4">🏆 Bludger Attack Volatility</h2>
+          <h2 className="text-3xl font-bold mb-4">🏆Bludger Attack Volatility</h2>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
               <thead>
