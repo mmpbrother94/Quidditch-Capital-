@@ -15,23 +15,23 @@ function BludgerChain() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    const fetchRates = async () => {
-      try {
-        const response = await fetch(`https://api.exchangerate-api.com/v4/latest/USD`);
-        if (!response.ok) {
-          throw new Error("Failed to fetch exchange rates");
-        }
-        const data = await response.json();
-        setRates(data.rates);
-        setLoading(false);
-      } catch (error) {
-        setError(error.message);
-        setLoading(false);
-      }
-    };
-    fetchRates();
-  }, []);
+  // useEffect(() => {
+  //   const fetchRates = async () => {
+  //     try {
+  //       const response = await fetch(`https://api.exchangerate-api.com/v4/latest/USD`);
+  //       if (!response.ok) {
+  //         throw new Error("Failed to fetch exchange rates");
+  //       }
+  //       const data = await response.json();
+  //       setRates(data.rates);
+  //       setLoading(false);
+  //     } catch (error) {
+  //       setError(error.message);
+  //       setLoading(false);
+  //     }
+  //   };
+  //   fetchRates();
+  // }, []);
 
   return (
     <div className="bg-gradient-to-r from-purple-900 via-black to-yellow-700 min-h-screen text-gold-200 p-6">
@@ -65,7 +65,7 @@ function BludgerChain() {
         </div>
 
         {/* Exchange Rates */}
-        <div className="bg-black text-gold-300 p-6 rounded-lg shadow-xl">
+        {/* <div className="bg-black text-gold-300 p-6 rounded-lg shadow-xl">
           <h2 className="text-3xl font-bold mb-4">Exchange Rates</h2>
           {loading ? (
             <p className="text-center text-yellow-400 animate-pulse">Summoning data...</p>
@@ -83,7 +83,7 @@ function BludgerChain() {
                 ))}
             </div>
           )}
-        </div>
+        </div> */}
 
         {/* Bludger Attacks Stock Data */}
         <div className="bg-black text-gold-300 p-6 rounded-lg shadow-xl">
