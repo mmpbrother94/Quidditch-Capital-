@@ -120,7 +120,7 @@ Special AI-driven “spells” to assist or hinder trades.
 
 ### 🔮 9. Prediction Accuracy  
 Checks the effectiveness and accuracy of AI predictions.  
-![Prediction Check](static/predection check.jpg)
+![Prediction Check](static/predection_check.jpg)
 
 ---
 
