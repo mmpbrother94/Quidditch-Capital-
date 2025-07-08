@@ -1,8 +1,0 @@
-# Node.js dependencies
-node_modules/
-npm-debug.log
-package-lock.json
-# Environment variables
-.env
-# Editor and OS-specific files
-.vscode/
